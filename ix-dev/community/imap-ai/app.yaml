@@ -1,0 +1,42 @@
+app_version: 1.0.0
+capabilities: []
+categories:
+- productivity
+changelog_url: https://github.com/Maxren2/imap-ai/releases
+date_added: '2026-09-16'
+description: An AI email assistant that reads and sends mail over IMAP/SMTP instead
+  of provider REST APIs (Gmail API, Microsoft Graph), avoiding their per-minute quota
+  throttling on AI-heavy workloads like rule matching and bulk cleanup.
+home: https://github.com/Maxren2/imap-ai
+host_mounts: []
+icon: https://media.sys.truenas.net/apps/imap-ai/icons/icon.png
+keywords:
+- email
+- imap
+- ai
+- assistant
+lib_version: 2.3.11
+lib_version_hash: 874636814efb275e5276ea9d709b7cd665fed42bb1d50328e853d9253a2e1229
+maintainers:
+- email: dev@truenas.com
+  name: truenas
+  url: https://www.truenas.com/
+name: imap-ai
+run_as_context:
+- description: Container [imap-ai] can run as any non-root user and group.
+  gid: 568
+  group_name: Host group is [apps]
+  uid: 568
+  user_name: Host user is [apps]
+- description: Container [postgres] runs as non-root user and group.
+  gid: 999
+  group_name: Host group is [docker]
+  uid: 999
+  user_name: Host user is [netdata]
+screenshots: []
+sources:
+- https://apps.truenas.com/catalog/imap-ai_community/
+- https://github.com/Maxren2/imap-ai
+title: imap-ai
+train: community
+version: 1.0.1

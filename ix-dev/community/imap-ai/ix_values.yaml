@@ -1,0 +1,23 @@
+images:
+  image:
+    repository: ghcr.io/maxren2/imap-ai
+    tag: "1.0.0"
+  container_utils_image:
+    repository: ixsystems/container-utils
+    tag: "1.0.2"
+  postgres_17_image:
+    repository: postgres
+    tag: 17.11-bookworm
+  postgres_18_image:
+    repository: postgres
+    tag: 18.6-trixie
+  postgres_upgrade_image:
+    repository: ixsystems/postgres-upgrade
+    tag: "1.2.16"
+
+consts:
+  imap_ai_container_name: imap-ai
+  postgres_container_name: postgres
+  perms_container_name: permissions
+  db_user: imap_ai
+  db_name: imap_ai
