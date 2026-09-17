@@ -1,4 +1,4 @@
-app_version: 1.0.1
+app_version: 1.0.2
 capabilities: []
 categories:
 - productivity
@@ -39,4 +39,4 @@ sources:
 - https://github.com/Maxren2/imap-ai
 title: imap-ai
 train: community
-version: 1.0.2
+version: 1.0.3
